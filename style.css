@@ -689,3 +689,34 @@ body {
   }
 }
 
+@media (max-width: 450px) {
+
+  /* Skills */
+  .skills fieldset {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .tech, .soft {
+    flex: 1 1 100%;
+    min-width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .tech ul li, .soft ul li {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
+  /* Education */
+  .edu li {
+    font-size: 14px;
+    margin-left: 0;
+    margin-top: 15px;
+    padding: 6px 12px;
+  }
+
+  .edu fieldset {
+    padding: 20px 15px;
+  }
+}
